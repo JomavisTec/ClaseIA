@@ -4,10 +4,6 @@
  */
 package jfuzzylogic;
 import net.sourceforge.jFuzzyLogic.FIS;
-/**
- *
- * @author manue
- */
 
 /*
 INTEGRANTES
@@ -20,8 +16,7 @@ public class JFuzzyLogic {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        //String fileName = "C://Users/manue/Documents/NetBeansProjects/jFuzzyLogic/src/jfuzzylogic/controlVelocidad.fcl";
-        String fileName = "..//jFuzzyLogic/src/jfuzzylogic/controlVelocidad.fcl";
+        String fileName = "jFuzzyLogic/src/jfuzzylogic/controlVelocidad.fcl";
         FIS fis = FIS.load(fileName, true);
         
         if(fis == null){
